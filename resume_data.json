@@ -1,0 +1,193 @@
+{
+  "personal_info": {
+    "name": "Medini S Rao",
+    "phone": "+91 9110855168",
+    "email": "medini98765@gmail.com",
+    "location": "Not specified",
+    "social_links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "leetcode": "LeetCode"
+    }
+  },
+  "professional_summary": {
+    "title": "AI/ML Engineer specializing in Computer Vision and deep learning for autonomous and healthcare systems.",
+    "highlights": [
+      "Experienced in building real-time perception pipelines and full-stack research platforms",
+      "Expertise in YOLOv8, SORT, OpenCV, FastAPI, and Python",
+      "Published IEEE researcher with hands-on experience in edge AI deployment",
+      "Specialized in medical imaging workflows"
+    ]
+  },
+  "education": [
+    {
+      "institution": "Manipal Institute of Technology, Manipal",
+      "degree": "B.Tech in Information Technology",
+      "field": "Information Technology",
+      "cgpa": "8.26",
+      "start_date": "Sept 2022",
+      "end_date": "Present"
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "EID Intern",
+      "company": "GE Healthcare",
+      "employment_type": "Internship",
+      "start_date": "Jan 2026",
+      "end_date": "Present",
+      "responsibilities": [
+        "Optimized MRI Machine parameters using Reinforcement Learning to reduce Scan time and improve SNR"
+      ]
+    },
+    {
+      "job_title": "Junior Software Engineer (Contract)",
+      "company": "Drones Tech Lab",
+      "employment_type": "Contract",
+      "start_date": "Aug 2025",
+      "end_date": "Dec 2025",
+      "responsibilities": [
+        "Engineered an AI-based co-pilot system for autonomous object detection, multi-object tracking, and target lock-on using YOLOv8n and SORT",
+        "Fine-tuned YOLOv8n on drone-specific visual data and evaluated detection performance using mAP@50",
+        "Integrated the perception pipeline with PyMAVLink telemetry and deployed inference on a companion computer for real-time onboard decision support"
+      ]
+    },
+    {
+      "job_title": "EID Intern",
+      "company": "GE HealthCare",
+      "employment_type": "Internship",
+      "start_date": "May 2025",
+      "end_date": "Present",
+      "responsibilities": [
+        "Automated and optimized CI/CD and Continuous Testing pipelines using Jenkins and Git, reducing test feedback cycles by 30%",
+        "Migrated legacy Tcl-based tooling to Python (PyGTK/PyGObject), improving system observability and reducing MTTR by 50%"
+      ]
+    },
+    {
+      "job_title": "R&D Intern",
+      "company": "Drones Tech Lab",
+      "employment_type": "Internship",
+      "start_date": "Mar 2025",
+      "end_date": "May 2025",
+      "responsibilities": [
+        "Built a real-time flight telemetry prediction API using FastAPI and Python, supporting 100+ mission parameters",
+        "Developed a cross-platform Electron.js visualization tool to analyze inference outputs and flight logs, reducing manual analysis time by 40%"
+      ]
+    },
+    {
+      "job_title": "Senior Member, Autonomous Drone Research",
+      "company": "AeroMIT",
+      "employment_type": "Research/Organization",
+      "start_date": "Mar 2023",
+      "end_date": "Aug 2025",
+      "responsibilities": [
+        "Engineered YOLOv8-based computer vision pipelines, achieving ~85% detection accuracy",
+        "Implemented vision-based tracking and path planning using OpenCV, ROS, and MAVROS"
+      ]
+    }
+  ],
+  "skills": {
+    "programming_languages": ["Python", "C++", "Java"],
+    "machine_learning_computer_vision": [
+      "Deep Learning",
+      "CNNs",
+      "YOLOv8",
+      "EfficientNet",
+      "SORT",
+      "OpenCV"
+    ],
+    "ai_systems_deployment": [
+      "ROS",
+      "MAVROS",
+      "PyMAVLink",
+      "Real-time Inference",
+      "Edge AI"
+    ],
+    "frameworks_apis": ["FastAPI", "Flask", "Next.js", "React"],
+    "medical_imaging": ["DICOM", "Orthanc PACS", "Cornerstone.js"],
+    "tools": ["Git", "Docker", "Jenkins", "Linux"]
+  },
+  "research": [
+    {
+      "title": "Blended Wing UAV for Intelligent Surveillance: Design and Deep Learning-Based Human Detection",
+      "publication": "IEEE Access, Vol. 13",
+      "doi": "10.1109/ACCESS.2025.3639268",
+      "accomplishments": [
+        "Architected a deep learning-enabled UAV system for real-time human detection",
+        "Trained an EfficientNetB3-based CNN, achieving 96.3% training accuracy and 94.7% validation accuracy",
+        "Validated real-time onboard inference beyond 120 m detection range"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "project_name": "DiCloud",
+      "subtitle": "Medical Imaging Research Platform (Hackathon Project)",
+      "description": "Healthcare research platform enabling secure collaboration between hospitals, researchers, radiologists, and patients using medical imaging data",
+      "accomplishments": [
+        "Built a full-stack application using Next.js (React) frontend and FastAPI (Python) backend with MongoDB",
+        "Integrated Orthanc PACS for DICOM storage and implemented automated DICOM anonymization pipelines",
+        "Implemented role-based access control supporting multiple clinical and research user workflows",
+        "Built a browser-based DICOM image viewer using Cornerstone.js and WADO protocols",
+        "Developed REST APIs for DICOM search, metadata extraction, and image retrieval with robust logging and error handling"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "FastAPI",
+        "Python",
+        "MongoDB",
+        "Orthanc PACS",
+        "Cornerstone.js",
+        "DICOM"
+      ]
+    },
+    {
+      "project_name": "Spectre UAV",
+      "description": "Autonomous UAV system with deep learning-driven vision-guided payload deployment",
+      "accomplishments": [
+        "Designed an autonomous UAV system with deep learning-driven vision-guided payload deployment using YOLOv8",
+        "Achieved ±1.5 m payload drop error by fusing computer vision inference with flight telemetry",
+        "Led end-to-end AI system integration",
+        "Ranked 2nd at Aerothon 2024"
+      ],
+      "technologies": [
+        "YOLOv8",
+        "Computer Vision",
+        "Deep Learning",
+        "Flight Telemetry"
+      ]
+    },
+    {
+      "project_name": "Tuktuk",
+      "subtitle": "Ride Sharing Application",
+      "github_link": "GitHub",
+      "description": "Backend-driven location-based ride matching system",
+      "accomplishments": [
+        "Built a backend-driven location-based ride matching system",
+        "Reduced average match time by 35% through proximity-based optimization"
+      ],
+      "technologies": ["Flutter", "Firebase", "Flask"]
+    },
+    {
+      "project_name": "Phishing Email Detection System",
+      "github_link": "GitHub",
+      "description": "Real-time phishing email detection pipeline",
+      "accomplishments": [
+        "Built a real-time phishing email detection pipeline using Flask, Snort, and TShark",
+        "Achieved <2 s alert latency"
+      ],
+      "technologies": ["Flask", "Snort", "TShark", "Python"]
+    }
+  ],
+  "certifications_awards": [
+    {
+      "achievement": "Ranked 2nd at Aerothon 2024",
+      "project": "Spectre UAV",
+      "type": "Award"
+    }
+  ],
+  "additional_information": {
+    "availability": "Open to part-time, contract, and remote roles alongside current internship"
+  }
+}
